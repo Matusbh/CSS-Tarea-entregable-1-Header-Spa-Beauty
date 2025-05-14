@@ -1,0 +1,12 @@
+@use "../abstracts/variables" as v;
+@use "../abstracts/mixins" as mx;
+
+.sing-up {
+    @include mx.button();
+}
+
+.hero__buttons {
+    .button{
+        @include mx.button();
+    }
+}

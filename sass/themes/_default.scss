@@ -1,0 +1,12 @@
+@use "../abstracts/variables" as v;
+
+
+html * {
+    font-family: v.$principal-font;
+}
+ 
+body {
+    overflow-x: hidden;
+    font-size: 16px;
+    color: v.$dark-blue;
+} 

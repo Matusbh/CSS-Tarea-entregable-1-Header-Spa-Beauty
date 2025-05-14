@@ -1,0 +1,52 @@
+@use "../abstracts/variables" as v;
+@use "../abstracts/mixins" as mx;
+
+.principal-header {
+    .container {
+        margin-top: 30px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        figure img {
+            width: 200px;
+        }
+
+        .principal-nav {
+            ul {
+                @include mx.nav-list();
+                gap: 50px;
+                li a {
+                    color: v.$dark-blue;
+                    text-decoration: none;
+                }
+                .flecha {
+                    position: relative;
+                    &::after {
+                        content: "";
+                        position: absolute;
+                        left: 40px;
+                        top: 2px;
+                        width: 20px;
+                        height: 20px;
+                        background-image: url("../../img/flecha_abajo.svg");
+                        background-position: center;
+                        background-size: cover;
+                        background-repeat: no-repeat;
+                    }
+                }
+            }
+        }
+
+        .shop-sing {
+            display: flex;
+            gap: 25px;
+            align-items: center;
+            a img {
+                width: 80%;
+            }
+            a.sing-in {
+                color: v.$dark-blue;
+            }
+        }
+    }
+}

@@ -1,0 +1,237 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,700);
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.sing-up {
+  padding: 16px 40px;
+  background-color: #264065;
+  text-decoration: none;
+  color: white;
+  border-radius: 40px;
+}
+
+.hero__buttons .button {
+  padding: 16px 40px;
+  background-color: #264065;
+  text-decoration: none;
+  color: white;
+  border-radius: 40px;
+}
+
+.principal-header .container {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.principal-header .container figure img {
+  width: 200px;
+}
+.principal-header .container .principal-nav ul {
+  display: flex;
+  gap: 10px;
+  list-style: none;
+  gap: 50px;
+}
+.principal-header .container .principal-nav ul li a {
+  color: #264065;
+  text-decoration: none;
+}
+.principal-header .container .principal-nav ul .flecha {
+  position: relative;
+}
+.principal-header .container .principal-nav ul .flecha::after {
+  content: "";
+  position: absolute;
+  left: 40px;
+  top: 2px;
+  width: 20px;
+  height: 20px;
+  background-image: url("../../img/flecha_abajo.svg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.principal-header .container .shop-sing {
+  display: flex;
+  gap: 25px;
+  align-items: center;
+}
+.principal-header .container .shop-sing a img {
+  width: 80%;
+}
+.principal-header .container .shop-sing a.sing-in {
+  color: #264065;
+}
+
+.container {
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.hero {
+  width: 800px;
+  margin-top: 100px;
+  position: relative;
+}
+.hero__tittle {
+  font-size: 56px;
+  margin-bottom: 30px;
+}
+.hero__subtitle {
+  font-size: 20px;
+  color: #909090;
+  margin-bottom: 50px;
+}
+.hero__buttons {
+  display: flex;
+  gap: 120px;
+  align-items: center;
+  margin-bottom: 90px;
+}
+.hero__buttons .video {
+  text-decoration: none;
+  color: #264065;
+  position: relative;
+}
+.hero__buttons .video::before {
+  content: "";
+  position: absolute;
+  top: -30px;
+  left: -90px;
+  width: 120px;
+  height: 120px;
+  background-image: url("../../img/play.svg ");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.hero::before {
+  content: "";
+  position: absolute;
+  left: 800px;
+  width: 750px;
+  height: 750px;
+  background-image: url("../../img/mujer_grande_x2.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+body {
+  background-color: #FAF8F5;
+  position: relative;
+}
+body::before {
+  content: "";
+  width: 35%;
+  background-color: #A9D6CB;
+  background-image: url("../../img/Flor_fondo.png");
+  background-position: -30px 62px;
+  background-size: 450px;
+  background-repeat: no-repeat;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+}
+body::after {
+  content: "";
+  width: 100%;
+  height: 15%;
+  background-color: white;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+}
+
+.information .container .article-1 {
+  background: rgba(255, 255, 255, 0.3);
+  -webkit-backdrop-filter: blur(8px);
+          backdrop-filter: blur(8px);
+  border-radius: 10px;
+  padding: 30px;
+  width: 350px;
+  position: absolute;
+  top: 445px;
+  left: 1390px;
+}
+.information .container .article-1 p {
+  margin-bottom: 10px;
+  position: relative;
+}
+.information .container .article-1 p::before {
+  content: "";
+  position: absolute;
+  top: -13px;
+  width: 22px;
+  height: 14px;
+  background-image: url("../../img/Decoracion.svg ");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.information .container .article-2 {
+  background: rgba(255, 255, 255, 0.3);
+  -webkit-backdrop-filter: blur(8px);
+          backdrop-filter: blur(8px);
+  border-radius: 10px;
+  padding: 20px;
+  width: 350px;
+  position: absolute;
+  top: 700px;
+  left: 1300px;
+}
+.information .container .article-2 p {
+  margin-bottom: 10px;
+}
+.information .container .article-2 p::before {
+  content: "";
+  position: absolute;
+  top: 5px;
+  width: 22px;
+  height: 14px;
+  background-image: url("../../img/Decoracion.svg ");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.servises .container {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 40px;
+  background-color: white;
+  width: 650px;
+  padding: 20px;
+  border-radius: 15px;
+}
+.servises .container article img {
+  margin-bottom: 15px;
+}
+.servises .container article h3 {
+  margin-bottom: 15px;
+  font-size: 30px;
+  font-weight: 400;
+}
+.servises .container article p {
+  font-size: 18px;
+  color: #909090;
+}
+
+html * {
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  overflow-x: hidden;
+  font-size: 16px;
+  color: #264065;
+}/*# sourceMappingURL=style.css.map */
