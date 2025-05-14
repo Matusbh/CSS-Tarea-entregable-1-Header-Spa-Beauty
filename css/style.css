@@ -104,7 +104,7 @@
   left: -90px;
   width: 120px;
   height: 120px;
-  background-image: url("../../img/play.svg ");
+  background-image: url("/CSS-Tarea-entregable-1-Header-Spa-Beauty/img/play.svg ");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -171,7 +171,7 @@ body::after {
   top: -13px;
   width: 22px;
   height: 14px;
-  background-image: url("../../img/Decoracion.svg ");
+  background-image: url("/CSS-Tarea-entregable-1-Header-Spa-Beauty/img/Decoracion.svg ");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
