@@ -50,7 +50,7 @@
   top: 2px;
   width: 20px;
   height: 20px;
-  background-image: url("../../img/flecha_abajo.svg");
+  background-image: url("/CSS-Tarea-entregable-1-Header-Spa-Beauty/img/flecha_abajo.svg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -115,7 +115,7 @@
   left: 800px;
   width: 750px;
   height: 750px;
-  background-image: url("../../img/mujer_grande_x2.png");
+  background-image: url("/CSS-Tarea-entregable-1-Header-Spa-Beauty/img/mujer_grande_x2.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -129,7 +129,7 @@ body::before {
   content: "";
   width: 35%;
   background-color: #A9D6CB;
-  background-image: url("../../img/Flor_fondo.png");
+  background-image: url("/CSS-Tarea-entregable-1-Header-Spa-Beauty/img/Flor_fondo.png");
   background-position: -30px 62px;
   background-size: 450px;
   background-repeat: no-repeat;
@@ -196,7 +196,7 @@ body::after {
   top: 5px;
   width: 22px;
   height: 14px;
-  background-image: url("../../img/Decoracion.svg ");
+  background-image: url("/CSS-Tarea-entregable-1-Header-Spa-Beauty/img/Decoracion.svg ");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
