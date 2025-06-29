@@ -6,6 +6,12 @@ Este es un proyecto de landing page para una clínica estética ficticia llamada
 
 ---
 
+## 🌐 Ver página en vivo
+
+👉 [Haz clic aquí para ver la landing page](https://matusbh.github.io/CSS-Tarea-entregable-1-Header-Spa-Beauty/)
+
+---
+
 ## 🛠️ Tecnologías usadas
 
 - HTML5  
